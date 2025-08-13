@@ -44,3 +44,32 @@ GROUP BY
     strftime('%Y-%m', t.InvoiceDate)
 ORDER BY 
     Month;
+
+
+
+
+
+
+
+
+    SELECT 
+    c.Country,
+    t.Quarter,
+    SUM(f.TotalSales) AS TotalSales
+FROM SalesFact f
+JOIN CustomerDim c ON f.CustomerID = c.CustomerID
+JOIN TimeDim t ON f.TimeID = t.TimeID
+GROUP BY c.Country, t.Quarter
+ORDER BY c.Country, t.Quarter;
+
+
+SELECT 
+    t.Year,
+    t.Month,
+    SUM(f.TotalSales) AS TotalSales
+FROM SalesFact f
+JOIN CustomerDim c ON f.CustomerID = c.CustomerID
+JOIN TimeDim t ON f.TimeID = t.TimeID
+WHERE c.Country = 'United Kingdom'
+GROUP BY t.Year, t.Month
+ORDER BY t.Year, t.Month;
