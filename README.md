@@ -39,7 +39,8 @@ Extraction success rate: 100% (no failures observed)
 Time: ~2.3 seconds for 50MB CSV file
 
 
-     ![alt text](<Screenshot 2025-08-14 at 20.35.31.png>)
+    <img width="779" height="761" alt="Screenshot 2025-08-14 at 20 35 31" src="https://github.com/user-attachments/assets/f2726b23-df39-4df9-9620-b8410f74b4df" />
+
 
 
   2. Transformation Stage
@@ -93,7 +94,8 @@ CustomerDim: 4,372 rows (0.8MB)
 TimeDim: 22,190 dates (1.2MB)
 
 
-     ![alt text](<Screenshot 2025-08-14 at 20.40.26.png>)
+    <img width="1054" height="652" alt="Screenshot 2025-08-14 at 20 40 26" src="https://github.com/user-attachments/assets/8f778591-0061-4ac7-8fd1-8be4e11c602e" />
+
 
 
 4. Full ETL Pipeline
@@ -171,7 +173,8 @@ With synthetic data:
                                 Section 2: Data Mining (50 Marks)
                             Task 1: Data Preprocessing and Exploration
 
-            ![alt text](<Screenshot 2025-08-14 at 20.47.56.png>)     
+   <img width="963" height="751" alt="Screenshot 2025-08-14 at 20 47 56" src="https://github.com/user-attachments/assets/7c1b5411-3c9c-428d-8fd8-417c38728d49" />
+     
 
 
  Data Preprocessing and Exploration (EDA) Analysis
@@ -182,11 +185,13 @@ Purpose:
 -Ingest the Iris dataset and perform preliminary inspection to understand its structure and quality.                                
 
 
-            ![alt text](notebooks/visualizations/iris_heatmap.png)
+            <img width="536" height="451" alt="iris_heatmap" src="https://github.com/user-attachments/assets/56ca2afd-34f3-4ceb-a225-b2bc5594be3d" />
 
 
 
-            ![alt text](notebooks/visualizations/iris_pairplot.png)
+
+            <img width="1157" height="1062" alt="iris_pairplot" src="https://github.com/user-attachments/assets/afc449c3-ad04-477c-9681-1aac5af8786d" />
+
 
 
 
@@ -224,7 +229,8 @@ Cluster	Avg Sepal Length	Avg Petal Length	Dominant Species
 Objective:
 Validate the biological assumption of k=3 clusters through empirical methods.
 
-                 ![alt text](notebooks/visualizations/elbow_curve.png)
+                 <img width="606" height="333" alt="elbow_curve" src="https://github.com/user-attachments/assets/a02421f9-d38c-4660-8791-e023ae404157" />
+
 
 Interpretation: Clear elbow at k=3, confirming biological reality
 Inertia Values:
@@ -245,7 +251,8 @@ Both mathematical and domain knowledge support k=3 as optimal.
 
 
                
-                ![alt text](notebooks/visualizations/cluster_comparison.png)
+                <img width="825" height="352" alt="cluster_comparison" src="https://github.com/user-attachments/assets/c71f0adb-ad8b-4bd1-ac52-ecdf11ffb4d0" />
+
 
 
  Key Observations:
@@ -316,7 +323,8 @@ Monitoring:
                                   Part A: Classification
 
 
-        ![alt text](<screenshots/Screenshot 2025-08-14 at 02.23.39.png>)     
+        <img width="800" height="511" alt="Screenshot 2025-08-14 at 02 23 39" src="https://github.com/user-attachments/assets/f397eed3-53b6-4b4c-93f3-518ebd675843" />
+     
 
 
 Purpose.
@@ -325,7 +333,8 @@ Part A: To classify iris flower species based on sepal and petal measurements us
 
 
 
-        ![alt text](<screenshots/Screenshot 2025-08-14 at 02.23.52.png>)
+        <img width="521" height="548" alt="Screenshot 2025-08-14 at 02 23 52" src="https://github.com/user-attachments/assets/8a51911a-5f95-40ef-9f1f-a781e40211e5" />
+
 
 
 
@@ -355,7 +364,8 @@ Objective:
 Create realistic transactional data with embedded patterns.
 
 
-         ![alt text](<screenshots/Screenshot 2025-08-14 at 02.24.09.png>)
+         <img width="872" height="294" alt="Screenshot 2025-08-14 at 02 24 09" src="https://github.com/user-attachments/assets/d70dd157-ae7e-4466-961a-071c1897c1ab" />
+
 
 
 Rule Analysis
