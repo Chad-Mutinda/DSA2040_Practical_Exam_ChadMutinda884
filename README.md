@@ -1,4 +1,5 @@
 
+![Star Schema Image](https://github.com/user-attachments/assets/2b990e20-904d-4737-b513-585037f79e4e)
 
 
 Why Star Schema instead of Snowflake:
